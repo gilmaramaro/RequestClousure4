@@ -21,6 +21,7 @@
 		755BF2F229D24603007A33EE /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755BF2F129D24603007A33EE /* Request.swift */; };
 		755BF2F529D247B5007A33EE /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755BF2F329D247B5007A33EE /* MyTableViewCell.swift */; };
 		755BF2F629D247B5007A33EE /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 755BF2F429D247B5007A33EE /* MyTableViewCell.xib */; };
+		755BF2F829D24A9D007A33EE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755BF2F729D24A9D007A33EE /* SecondViewController.swift */; };
 		C6612BEE9614153F7A407760 /* Pods_RequestClousure4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CD735A6959FFE26B2DEEB0 /* Pods_RequestClousure4.framework */; };
 		F68EDB54FD3384303B50177B /* Pods_RequestClousure4Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6C7DD949A946269551D6D9 /* Pods_RequestClousure4Tests.framework */; };
 /* End PBXBuildFile section */
@@ -61,6 +62,7 @@
 		755BF2F129D24603007A33EE /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		755BF2F329D247B5007A33EE /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		755BF2F429D247B5007A33EE /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		755BF2F729D24A9D007A33EE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		8492FC5DD54FBD91615FC8BA /* Pods-RequestClousure4-RequestClousure4UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RequestClousure4-RequestClousure4UITests.release.xcconfig"; path = "Target Support Files/Pods-RequestClousure4-RequestClousure4UITests/Pods-RequestClousure4-RequestClousure4UITests.release.xcconfig"; sourceTree = "<group>"; };
 		8ED115687218B0498FB896E4 /* Pods-RequestClousure4-RequestClousure4UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RequestClousure4-RequestClousure4UITests.debug.xcconfig"; path = "Target Support Files/Pods-RequestClousure4-RequestClousure4UITests/Pods-RequestClousure4-RequestClousure4UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		96CD735A6959FFE26B2DEEB0 /* Pods_RequestClousure4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RequestClousure4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +140,7 @@
 				755BF2C129D244FF007A33EE /* SceneDelegate.swift */,
 				755BF2C329D244FF007A33EE /* ViewController.swift */,
 				755BF2C529D244FF007A33EE /* Main.storyboard */,
+				755BF2F729D24A9D007A33EE /* SecondViewController.swift */,
 				755BF2F329D247B5007A33EE /* MyTableViewCell.swift */,
 				755BF2F429D247B5007A33EE /* MyTableViewCell.xib */,
 				755BF2F129D24603007A33EE /* Request.swift */,
@@ -423,6 +426,7 @@
 				755BF2C429D244FF007A33EE /* ViewController.swift in Sources */,
 				755BF2F229D24603007A33EE /* Request.swift in Sources */,
 				755BF2C029D244FF007A33EE /* AppDelegate.swift in Sources */,
+				755BF2F829D24A9D007A33EE /* SecondViewController.swift in Sources */,
 				755BF2C229D244FF007A33EE /* SceneDelegate.swift in Sources */,
 				755BF2F529D247B5007A33EE /* MyTableViewCell.swift in Sources */,
 			);

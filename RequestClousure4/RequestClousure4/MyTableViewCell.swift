@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class MyTableViewCell: UITableViewCell {
 
@@ -13,13 +14,14 @@ class MyTableViewCell: UITableViewCell {
     @IBOutlet weak var namePizza: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
-    
+    func setupCell(myCustomCell: PizzaElement?) {
+        let urlImage = URL(string: myCustomCell?.imageURL ?? "")
+        imagePizza.sd_setImage(with: urlImage)
+        namePizza.text = myCustomCell?.name
+    }
 }
